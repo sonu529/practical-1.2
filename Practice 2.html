@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Banking UI</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -15,15 +12,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 100vh;
+      height: 100vh;
     }
     .banking-container {
-      background: white;
+      background: #fff;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       width: 280px;
-      text-align: center;
       padding: 30px 20px;
+      text-align: center;
     }
     .balance {
       font-size: 24px;
@@ -32,29 +29,18 @@
     }
     .btn {
       width: 100%;
-      padding: 12px 0;
+      padding: 12px;
       font-size: 16px;
       font-weight: bold;
       border: none;
       border-radius: 6px;
       margin-bottom: 15px;
       cursor: pointer;
-      transition: 0.3s;
     }
-    .deposit {
-      background-color: #2ecc71;
-      color: white;
-    }
-    .deposit:hover {
-      background-color: #27ae60;
-    }
-    .withdraw {
-      background-color: #e74c3c;
-      color: white;
-    }
-    .withdraw:hover {
-      background-color: #c0392b;
-    }
+    .deposit { background: #2ecc71; color: #fff; }
+    .deposit:hover { background: #27ae60; }
+    .withdraw { background: #e74c3c; color: #fff; }
+    .withdraw:hover { background: #c0392b; }
   </style>
 </head>
 <body>
